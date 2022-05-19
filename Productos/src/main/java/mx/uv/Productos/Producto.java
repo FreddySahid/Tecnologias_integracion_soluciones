@@ -13,7 +13,7 @@ public class Producto {
     private int id;
     private String tipo;
     private String descripcion;
-    private String precio;
+    private float precio;
 
     public void setId(int id){
         this.id = id;
@@ -27,7 +27,7 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    public void setPrecio(String precio){
+    public void setPrecio(float precio){
         this.precio = precio;
     }
 
@@ -40,7 +40,7 @@ public class Producto {
     public String getDescripcion(){
         return descripcion;
     }
-    public String getPrecio(){
+    public float getPrecio(){
         return precio;
     }
     

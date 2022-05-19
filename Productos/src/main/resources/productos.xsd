@@ -8,7 +8,7 @@
    <xs:sequence>
     <xs:element name="tipo" type="xs:string"/>
     <xs:element name="descripcion" type="xs:string"/>
-    <xs:element name="precio" type="xs:string"/>
+    <xs:element name="precio" type="xs:float"/>
    </xs:sequence>
   </xs:complexType>
  </xs:element>
@@ -29,7 +29,7 @@
                <xs:element name="id" type="xs:int"></xs:element>
                <xs:element name="tipo" type="xs:string"></xs:element>
                <xs:element name="descripcion" type="xs:string"></xs:element>
-               <xs:element name="precio" type="xs:string"></xs:element>
+               <xs:element name="precio" type="xs:float"></xs:element>
              </xs:sequence>
            </xs:complexType>
        </xs:element>
@@ -42,7 +42,7 @@
       <xs:element name="id" type="xs:int"/>
       <xs:element name="tipo" type="xs:string"/>
       <xs:element name="descripcion" type="xs:string"/>
-      <xs:element name="precio" type="xs:string"/>
+      <xs:element name="precio" type="xs:float"/>
     </xs:sequence>
   </xs:complexType>
  </xs:element>
