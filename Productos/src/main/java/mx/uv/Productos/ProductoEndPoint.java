@@ -11,6 +11,7 @@ import https.uv_mx.productos.RegistrarProductoRequest;
 import https.uv_mx.productos.MostrarProductosResponse;
 import https.uv_mx.productos.ModificarProductoRequest;
 import https.uv_mx.productos.ModificarProductoResponse;
+
 import https.uv_mx.productos.BorrarProductoRequest;
 import https.uv_mx.productos.BorrarProductoResponse;
 
@@ -46,7 +47,10 @@ public class ProductoEndPoint {
             mostrarProducto.setTipo(o.getTipo());
             mostrarProducto.setDescripcion(o.getDescripcion());
             mostrarProducto.setPrecio(o.getPrecio());
+            
             respuesta.getProductos().add(mostrarProducto);
+            
+            
         }
         return respuesta;
     }
