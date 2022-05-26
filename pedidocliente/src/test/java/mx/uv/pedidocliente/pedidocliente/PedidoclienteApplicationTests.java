@@ -1,10 +1,10 @@
-package com.uv.clientePedido;
+package mx.uv.pedidocliente.pedidocliente;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClientePedidoApplicationTests {
+class PedidoclienteApplicationTests {
 
 	@Test
 	void contextLoads() {

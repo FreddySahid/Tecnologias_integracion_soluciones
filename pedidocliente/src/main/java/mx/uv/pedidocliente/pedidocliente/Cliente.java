@@ -1,4 +1,4 @@
-package com.uv.clientePedido;
+package mx.uv.pedidocliente.pedidocliente;
 
 import java.time.LocalDate;
 
@@ -39,7 +39,7 @@ public class Cliente {
     }
 
     public int getId(){
-        return id;
+        return id; 
     }
     public String getNombre(){
         return nombre;
