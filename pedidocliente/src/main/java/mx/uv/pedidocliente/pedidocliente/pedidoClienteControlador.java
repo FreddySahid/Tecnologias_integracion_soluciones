@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
+
 
 
 @RestController
@@ -28,10 +26,7 @@ public class pedidoClienteControlador {
         Cliente cliente = new Cliente();
         String mensaje = "";
 
-        /*LocalDate todaysDate = LocalDate.now();
-
-        LocalDateTime locaDate = LocalDateTime.now();*/
-        
+       
         
        
         cliente.setNombre(nombre);
