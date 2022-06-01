@@ -1,4 +1,4 @@
-package mx.uv.productos;
+package mx.uv.Productos;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package mx.uv.productos;
+package mx.uv.Productos;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;

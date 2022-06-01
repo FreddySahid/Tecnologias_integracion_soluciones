@@ -1,4 +1,4 @@
-package mx.uv.productos;
+package mx.uv.Productos;
  
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
